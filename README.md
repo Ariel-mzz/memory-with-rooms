@@ -198,6 +198,8 @@ This repository is currently an **early public version**.
 
 The structure, templates, and scripts are usable now, but the project is still intended to evolve through real-world OpenClaw use.
 
+See [CHANGELOG.md](./CHANGELOG.md) for the current release summary.
+
 ## Privacy note
 
 This repository was extracted from a real layered agent memory workflow, but all personal content, private relationship material, tokens, and live memory data were intentionally removed or sanitized before publication.
