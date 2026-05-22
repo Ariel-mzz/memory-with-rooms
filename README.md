@@ -2,7 +2,24 @@
 
 A layered memory system for OpenClaw agents that separates raw drafts from curated recall.
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![Status: Early Public Version](https://img.shields.io/badge/status-early_public_version-blue.svg)](#status)
+
 This project is for agents that need to remember well **without** letting every scratch note, planning trace, or unfinished thought dominate later retrieval.
+
+## At a glance
+
+- Keep raw thinking without letting it pollute later recall
+- Split durable memory into purpose-specific rooms
+- Feed dreaming and palace/wiki layers with cleaner source material
+- Adopt the system gradually instead of replacing an existing workspace all at once
+
+## Good fit for
+
+- companion-style agents that need gentler, cleaner long-term recall
+- research or work agents that accumulate too many raw notes
+- creative agents that need to preserve drafts without treating every draft as durable memory
+- OpenClaw users who want a practical bridge between daily output and higher-level memory layers
 
 ## Why this exists
 
@@ -26,6 +43,14 @@ Treat memory as rooms, not one undifferentiated archive.
 - **Open questions room**: unresolved tensions and themes worth revisiting
 
 The goal is not to store less. The goal is to make later recall cleaner.
+
+## Design principles
+
+- **Preserve process, but downgrade its retrieval priority**
+- **Let curated memory be easy to revisit**
+- **Separate people, preferences, and unresolved questions**
+- **Feed higher-level systems with cleaner source material**
+- **Prefer additive adoption over destructive migration**
 
 ## What this project includes
 
@@ -91,6 +116,20 @@ For an existing OpenClaw workspace, read:
 
 - [references/adoption-guide.md](./references/adoption-guide.md)
 - [references/dreaming-and-palace.md](./references/dreaming-and-palace.md)
+
+## Example use cases
+
+### Relationship-aware memory
+
+Keep private drafts separate while letting curated reflections and durable relationship notes remain easy to retrieve.
+
+### Work or research memory
+
+Store brainstorming and process traces in draft rooms while promoting only conclusions, decisions, and unresolved themes into curated rooms.
+
+### Preference tracking
+
+Give an agent a stable place to remember recurring tastes, curiosities, or working style without mixing them into general project notes.
 
 ## Scripts
 
@@ -162,3 +201,7 @@ The structure, templates, and scripts are usable now, but the project is still i
 ## Privacy note
 
 This repository was extracted from a real layered agent memory workflow, but all personal content, private relationship material, tokens, and live memory data were intentionally removed or sanitized before publication.
+
+## Contributing
+
+If you try this in a real OpenClaw workspace and find a cleaner folder pattern, a better registry convention, or a safer way to feed dreaming or palace/wiki layers, contributions are very welcome. A lightweight guide lives in [CONTRIBUTING.md](./CONTRIBUTING.md).
