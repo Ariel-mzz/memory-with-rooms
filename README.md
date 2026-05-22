@@ -7,12 +7,15 @@ A layered memory system for OpenClaw agents that separates raw drafts from curat
 
 This project is for agents that need to remember well **without** letting every scratch note, planning trace, or unfinished thought dominate later retrieval.
 
+It is designed to help build an OpenClaw agent that can stay with you over time and keep accumulating cleaner long-term continuity across **personality, projects, relationships, preferences, and reflection**.
+
 ## At a glance
 
 - Keep raw thinking without letting it pollute later recall
 - Split durable memory into purpose-specific rooms
 - Feed dreaming and palace/wiki layers with cleaner source material
 - Adopt the system gradually instead of replacing an existing workspace all at once
+- Support agents that need to feel continuous over time, not just temporarily helpful
 
 ## Good fit for
 

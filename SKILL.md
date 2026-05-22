@@ -9,6 +9,8 @@ Use this skill when an agent needs a memory system that remembers well without b
 
 This skill is for additive memory design, not destructive migration. It helps split memory into layers so the agent can keep raw process notes without letting those notes dominate retrieval later.
 
+The larger goal is to help an OpenClaw agent become more continuous over time: not just remembering tasks, but accumulating cleaner durable context around personality, projects, relationships, preferences, and self-reflection.
+
 ## Use this skill when
 
 - The agent remembers too much raw process and not enough settled conclusions.
