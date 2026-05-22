@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory With Rooms"
+  short_description: "Layered memory system for agents"
+  default_prompt: "Use $memory-with-rooms to design a layered memory workflow for this agent."
